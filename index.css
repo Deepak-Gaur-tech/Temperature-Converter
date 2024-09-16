@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+}
+
+.container{
+    height:400px;
+    width: 420px;
+    background-color: white;
+    text-align: center;
+    line-height: 30px;
+    
+  
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 10px;
+}
+
+.celsius{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+#celsius{
+ 
+    width: 80%;
+    padding: 10px;
+    border: 1px solid green;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.kelvin{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+#kelvin{
+    
+    width: 80%;
+    padding: 10px;
+    border: 1px solid green;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.farenheit{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+#farenheit{
+   
+    width: 80%;
+    padding: 10px;
+    border: 1px solid green;
+    font-size: 1.5rem;
+}
+
